@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Something want to say</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Vogue Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<script src="js/jquery-1.11.0.min.js"></script>
+<link href='http://fonts.useso.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.useso.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+<!---- start-smoth-scrolling---->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+<!--start-smoth-scrolling-->
+<style type="text/css">
+<!--
+.STYLE5 {font-family: "新蒂黑板报"}
+.STYLE7 {color: #FF53A9}
+.STYLE8 {font-family: "字酷堂清楷体"}
+-->
+</style>
+</head>
+<body>
+	<!--banner-starts-->
+	<div class="bnr" id="home">
+	  <div  id="top" class="callbacks_container"></div>
+		<div class="clearfix"> </div>
+	</div>
+	<!--banner-ends--> 
+	<!--Slider-Starts-Here-->
+				<script src="js/responsiveslides.min.js"></script>
+			 <script>
+			    // You can also use "$(window).load(function() {"
+			    $(function () {
+			      // Slideshow 4
+			      $("#slider4").responsiveSlides({
+			        auto: true,
+			        pager: false,
+			        nav: true,
+			        speed: 500,
+			        namespace: "callbacks",
+			        before: function () {
+			          $('.events').append("<li>before event fired.</li>");
+			        },
+			        after: function () {
+			          $('.events').append("<li>after event fired.</li>");
+			        }
+			      });
+			
+			    });
+			  </script>
+			<!--End-slider-script-->
+	<!--header-starts-->
+	<div class="header-bottom">
+	 <div class="fixed-header">
+		<div class="container">
+			<div class="top-menu">
+					<span class="menu"><img src="images/nav-icon.png" alt="" /></span>
+					<ul class="nav">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="portfolio.html">Hometown</a></li>
+						<li><a class="active" href="blog.html">Something want to say</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>	
+					<!-- script for menu -->
+						<script>
+						$( "span.menu" ).click(function() {
+						  $( "ul.nav" ).slideToggle( "slow", function() {
+							// Animation complete.
+						  });
+						});
+					</script>
+					<!-- script for menu -->
+			</div>
+			<div class="header-right">
+				<ul>
+					<li><a href="#"><span class="fb"></span></a></li>
+					<li><a href="#"><span class="google"></span></a></li>
+					<li><a href="#"><span class="twit"></span></a></li>
+				</ul>
+			</nav>		
+			</div>
+			<div class="clearfix"></div>
+			<script>
+		$(document).ready(function() {
+			 var navoffeset=$(".header-bottom").offset().top;
+			 $(window).scroll(function(){
+				var scrollpos=$(window).scrollTop(); 
+				if(scrollpos >=navoffeset){
+					$(".header-bottom").addClass("fixed");
+				}else{
+					$(".header-bottom").removeClass("fixed");
+				}
+			 });
+			 
+		});
+		</script>
+		</div>
+	 </div>
+</div>
+	<!--header-ends-->
+	<!--blog-starts-->
+	<div class="blog">
+		<div class="container">
+			<div class="blog-top contact-top">
+				<h3 class="STYLE7">Something want to say</h3>
+		  </div>
+			<div class="col-md-8 blog-left">
+				<div class="blog-one blog-bottom">
+				  
+				  <h4>2016.1.14<a href="single.html"><img src="images/1.jpg" width="100%" height="857"></a>				  </h4>
+				  <p>&nbsp; </p>
+					<p class="STYLE5">晚来凉风不得安，好雨时节难一梦。</p>
+			  </div>
+				<div class="blog-one">
+				  
+				  <h4>2015.12.23</h4>
+				  <a href="single.html"><img src="images/2.jpg" width="100%" height="758"></a>
+<p>&nbsp;</p>
+<p>你栽出千万花的一生 四季中径自盛放也凋零<br>
+  你走出千万人群独行 往柳暗花明山穷水尽去</p>
+                </div>
+				<div class="blog-one">
+					
+				  <h4>2015.9.5</h4>
+					<p><a href="single.html"></a></p>
+					<a href="single.html"><img src="images/3.jpg" width="1360" height="812"></a>
+					<p class="STYLE8">那时你只有18岁 第一次看见你 <br>
+					  你扎着长长的马尾 面朝大海 <br>
+					  那时你爱顾城的诗 也学他总戴帽子 <br>
+			      你总说我是个任性的孩子</p>
+			  </div>
+				<div class="blog-btm">
+						<nav>
+	  						<ul class="pagination">
+	    						<li class="disabled"></li>
+	    						<li class="active"></li>
+	    						<li></li>
+	    						<li></li>
+	    						<li></li>
+	    						<li></li>
+	    						<div class="clearfix"></div>
+	  						</ul>
+						</nav>
+				</div>
+			</div>
+		    <div class="clearfix"></div>
+		</div>
+	</div>
+	<!--blog-ends-->
+	<!--footer-starts-->
+	<div class="footer">
+		<div class="container">
+			<div class="footer-main">
+				<div class="col-md-3 footet-left">
+					<h3>导航</h3>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="portfolio.html">Hometown</a></li>
+						<li><a href="blog.html">Something want to say</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="footer-text">
+				<p></p>
+			</div>
+		</div>
+		<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+		<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+</div>
+	<!--footer-starts-->
+</body>
+</html>

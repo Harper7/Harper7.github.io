@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Vogue Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<script src="js/jquery-1.11.0.min.js"></script>
+<link href='http://fonts.useso.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.useso.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+<!---- start-smoth-scrolling---->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+<!--start-smoth-scrolling-->
+<style type="text/css">
+<!--
+.STYLE2 {
+	font-family: inherit;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+-->
+</style></head>
+<body>
+	<!--banner-starts-->
+	<div class="bnr" id="home">
+	  <div  id="top" class="callbacks_container"></div>
+		<div class="clearfix"> </div>
+	</div>
+	<!--banner-ends--> 
+    <div class="copyrights">Collect from <a href="http://www.cssmoban.com/"  title="网站模板">网站模板</a></div>
+	<!--Slider-Starts-Here-->
+				<script src="js/responsiveslides.min.js"></script>
+			 <script>
+			    // You can also use "$(window).load(function() {"
+			    $(function () {
+			      // Slideshow 4
+			      $("#slider4").responsiveSlides({
+			        auto: true,
+			        pager: false,
+			        nav: true,
+			        speed: 500,
+			        namespace: "callbacks",
+			        before: function () {
+			          $('.events').append("<li>before event fired.</li>");
+			        },
+			        after: function () {
+			          $('.events').append("<li>after event fired.</li>");
+			        }
+			      });
+			
+			    });
+			  </script>
+			<!--End-slider-script-->
+	<!--header-starts-->
+	<div class="header-bottom">
+	 <div class="fixed-header">
+		<div class="container">
+			<div class="top-menu">
+					<span class="menu"><img src="images/nav-icon.png" alt="" /></span>
+					<ul class="nav">
+						<li><a class="active" href="index.html">Home</a></li>
+						<li><a href="about.html">About </a></li>
+						<li><a href="portfolio.html">Hometown</a></li>
+						<li><a href="blog.html">Something want to say</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>	
+					<!-- script for menu -->
+						<script>
+						$( "span.menu" ).click(function() {
+						  $( "ul.nav" ).slideToggle( "slow", function() {
+							// Animation complete.
+						  });
+						});
+					</script>
+					<!-- script for menu -->
+		  </div>
+			<div class="header-right">
+				<ul>
+					<li><a href="#"><span class="fb"></span></a></li>
+					<li><a href="#"><span class="google"></span></a></li>
+					<li><a href="#"><span class="twit"></span></a></li>
+				</ul>
+			</nav>		
+			</div>
+			<div class="clearfix"><img src="images/4.jpg" width="1350" height="343"></div>
+			<script>
+		$(document).ready(function() {
+			 var navoffeset=$(".header-bottom").offset().top;
+			 $(window).scroll(function(){
+				var scrollpos=$(window).scrollTop(); 
+				if(scrollpos >=navoffeset){
+					$(".header-bottom").addClass("fixed");
+				}else{
+					$(".header-bottom").removeClass("fixed");
+				}
+			 });
+			 
+		});
+		</script>
+		</div>
+	 </div>
+</div>
+	<!--header-ends-->
+
+	<!--welcome-starts-->
+	<div class="welcome">
+		<div class="container">
+			<div class="welcome-top">
+				<div class="col-md-4 welcome-left">
+				  <div class="welcome-bottom">
+						<h4>在这里你将看到</h4>
+					    <p class="STYLE2">一些介绍</p>
+					    <p class="STYLE2">一些记录</p>
+					    <p class="STYLE2">一些照片</p>
+				  </div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>	 
+	<!--welcome-ends-->
+	<!--style-starts-->
+	<!--style-ends-->
+    <!--test-starts-->
+<div class="news"></div>
+	<!--test-starts-->
+	<!--testimonials-starts-->
+	<div class="testimonials">
+		<div class="container">
+			<div class="testimonials-top">
+				<h3>关于我的更多 请关注</h3>
+				<p>新浪微博<a href="http://weibo.com/la77777/home?wvr=5&lf=reg">@安九大哥</a></p>
+			</div>
+			<div class="testimonials-bottom">
+			  <div class="clearfix"> </div>
+		  </div>
+		</div>
+</div>
+	<!--testimonials-ends-->
+	<!--Slider-Starts-Here-->
+			 <script>
+			    // You can also use "$(window).load(function() {"
+			    $(function () {
+			      // Slideshow 5
+			      $("#slider5").responsiveSlides({
+			        auto: true,
+			        pager: true,
+			        nav: false,
+			        speed: 500,
+			        namespace: "callbacks",
+			        before: function () {
+			          $('.events').append("<li>before event fired.</li>");
+			        },
+			        after: function () {
+			          $('.events').append("<li>after event fired.</li>");
+			        }
+			      });
+			
+			    });
+			  </script>
+			<!--End-slider-script-->
+	<!--footer-starts-->
+	<div class="footer">
+		<div class="container">
+			<div class="footer-main">
+				<div class="col-md-3 footet-left">
+					<h3>导航</h3>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="portfolio.html">Hometown</a></li>
+						<li><a href="blog.html">Something want to say </a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="footer-text">
+				<p></p>
+			</div>
+		</div>
+		<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+		<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	</div>
+	<!--footer-starts-->
+</body>
+</html>
